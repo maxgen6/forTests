@@ -4,13 +4,10 @@
 
 const arraySort = (arr , i) => {
     if (i === 1){
-        arr.sort((a, b) => {
-            return(a - b);
-        });
+        arr.sort((a, b) => a -  b);
+        
     } else if(i === 2){
-        arr.sort((a, b) => {
-            return(b - a);
-        })
+        arr.sort((a, b) => b - a);
     }
 
     console.log(arr);
